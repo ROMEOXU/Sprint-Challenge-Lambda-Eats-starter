@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+.nav{
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+
+Form{
+  display: flex;
+  flex-direction: column;
+}
+
+label,input,.select,p,span {
+  width: 40%;
+  margin :0 auto;
+  margin-bottom: 1.5%;
+}
+.area{
+  margin :0 auto;
+  width:30%
+}
+button{
+  width: 20%;
+  margin :10px auto 10px;
+
+}
+p{
+  color:red;
+}
+.order{
+  text-align: center;
+  color:grey;
+}
